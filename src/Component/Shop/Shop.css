@@ -13,3 +13,10 @@
     background-color: palegreen;
     border-radius: 30px;
 }
+@media screen and (maxwidth:320px){
+    .container{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    } 
+    
+}
