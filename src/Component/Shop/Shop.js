@@ -27,7 +27,6 @@ const Shop = () => {
                 }
             </div>
             <div className="cart">
-                <h1>This is cart</h1>
                 <Cart getItem={getItem} removeAll={RemoveAll}></Cart>
             </div>
         </div>
