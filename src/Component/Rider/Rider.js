@@ -2,7 +2,6 @@ import React from 'react';
 import './Rider.css';
 
 const Rider = (props) => {
-    // console.log(props)
     const { img, name, price, company } = props.rider;
     return (
         <div className='ride-container'>

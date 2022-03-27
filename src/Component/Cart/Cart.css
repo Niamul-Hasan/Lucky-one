@@ -1,17 +1,27 @@
-.cart-info img{
-    display: inline;
+.ul-style img{
+    /* display: inline; */
     width: 100px;
     border-radius: 50%;
+    margin-top: 10px;
 
 }
-.cart-info p{
-    display: inline;
+.ul-style span{
     margin-left: 10px;
 }
-.cart-info{
+.ul-style{
+    list-style: none;
+}
+.ul-style li{
     display:flex;
     flex-direction: row;
     align-items: center;
-    justify-content: center;
-  
+}
+.removeAll{
+    margin-left: 0px 50px;
+    padding: 10px;
+    background-color: orangered;
+    color: white;
+    font-size: 20px;
+    border-radius: 10px;
+
 }

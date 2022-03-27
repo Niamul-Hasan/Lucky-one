@@ -6,17 +6,19 @@ import './Shop.css'
 const Shop = () => {
     const [riders, setRiders] = useState([]);
     const [getItem, setGetItem] = useState([]);
-    const [getPic, setGetPic] = useState([]);
     const AddToCart = (cartItem, pic) => {
-        console.log(cartItem, pic);
-        setGetItem(cartItem);
-        setGetPic(pic);
+        setGetItem([...getItem, { cartItem, pic }]);
     }
     useEffect(() => {
         fetch('data.json')
             .then(res => res.json())
             .then(data => setRiders(data));
     }, [])
+
+    const RemoveAll = () => {
+        setGetItem([]);
+    }
+
     return (
         <div className='container'>
             <div className="shop">
@@ -26,7 +28,7 @@ const Shop = () => {
             </div>
             <div className="cart">
                 <h1>This is cart</h1>
-                <Cart getItem={getItem} getPic={getPic}></Cart>
+                <Cart getItem={getItem} removeAll={RemoveAll}></Cart>
             </div>
         </div>
     );
