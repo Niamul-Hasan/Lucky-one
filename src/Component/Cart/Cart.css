@@ -1,0 +1,17 @@
+.cart-info img{
+    display: inline;
+    width: 100px;
+    border-radius: 50%;
+
+}
+.cart-info p{
+    display: inline;
+    margin-left: 10px;
+}
+.cart-info{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  
+}

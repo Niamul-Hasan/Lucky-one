@@ -1,0 +1,44 @@
+[
+    {
+        "id": "6240058bbec35701d1093e0d",
+        "price": "$3,553.96",
+        "img": "https://www.gpas-cache.ford.com/guid/6b08101f-07d0-31cc-9798-b600d1d55f08.png",
+        "name": "FIESTA",
+        "company": "FORD"
+    },
+    {
+        "id": "6240058b10d98aec14dbe2be",
+        "price": "$2,535.09",
+        "img": "https://images.news18.com/ibnlive/uploads/2021/02/1614062615_new-bajaj-pulsar-180.png",
+        "name": "Bajaj-pulsar-180",
+        "company": "BAJAJ"
+    },
+    {
+        "id": "6240058bbfe5f527c6d823c6",
+        "price": "$2,797.84",
+        "img": "https://classifiedsaptari.com/wp-content/uploads/2020/09/PULSAR-200-NS-FI-ABS.jpg",
+        "name": "PULSAR-200",
+        "company": "BAJAJ"
+    },
+    {
+        "id": "6240058bf17229b244948a9f",
+        "price": "$3,380.75",
+        "img": "https://images.hindustantimes.com/auto/img/2021/06/01/1600x900/Yamaha3_1573739763153_1622535588692.jpg",
+        "name": "Yamaha3",
+        "company": "YAMAHA"
+    },
+    {
+        "id": "6240058b97d29307bff4c063",
+        "price": "$1,599.47",
+        "img": "https://ichef.bbci.co.uk/news/976/cpsprodpb/B9B6/production/_103724574_prius-64-plate-006_toyota.jpg",
+        "name": "TY64 YVR",
+        "company": "TOYOTA"
+    },
+    {
+        "id": "6240058b33df10107e6cf22e",
+        "price": "$1,334.91",
+        "img": "https://imgd.aeplcdn.com/0x0/n/cw/ec/41406/bmw-8-series-right-front-three-quarter8.jpeg",
+        "name": "Bmw-8-series",
+        "company": "BMW"
+    }
+]
