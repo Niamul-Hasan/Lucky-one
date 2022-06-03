@@ -1,6 +1,4 @@
-## Live Site Link
-[click to visit](https://spectacular-snickerdoodle-242886.netlify.app/)
-
+## Live Site Link [click to visit](https://spectacular-snickerdoodle-242886.netlify.app/)
 
 # Getting Started with Create React App
 
